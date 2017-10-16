@@ -17,7 +17,7 @@
                 max-width: 800px;
                 margin: auto;
             }
-    
+            
             /* navigation menu */
             nav {
                 background: rgb(0, 64, 255);
@@ -25,20 +25,22 @@
                 margin-bottom:20px;
                 display: flex;
                 padding: 10px;
-                border-radius
+                border-radius:20px;
             }
             nav header {
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
+                
             }
+         
             nav ul {
                 list-style-image: none;
             }
             nav li {
                 display: inline-block;
-                padding: 0 10px;
+                padding: 10px;
             }
             nav a {
                 text-decoration: none;
@@ -49,6 +51,7 @@
             main {
                 background: rgb(255, 0, 0);
                 display: flex;
+                border-radius:20px;
             }
            
             
@@ -66,13 +69,18 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
-     img{
-    border: 4px solid black;
-    outline-color: red;
-}
+             img{
+            border: 4px solid black;
+            outline-color: red;
+            }   
+            li{
+            border:4px solid black;
+            outline-color:red;
+            padding:10px;
+            margin-bottom:10px;
+            }
 
-p.dotted {outline-style: dotted;}
-        </style>
+    </style>
     </head>
     <body>
         <!--https://github.com/jacobfrederick/jacobfrederick.github.io.git -->
@@ -92,10 +100,16 @@ p.dotted {outline-style: dotted;}
                     <header>Jacob Frederick </header>
                     <p> Student at Nomma highschool</p>
                     <section class="interest"> <header>Interest</header>
-                    <ul> 
+                    <ul>
+                    <class id="sports">
                     <li>Sports</li>
+                    </class>
+                    <class id="food"></class>
                     <li>Food</li>
-                    <li>Anything computer related</l>
+                    </class>
+                    <class id="computers">
+                    <li>Anything computer related</li>
+                    </class>
                     </ul>
                     </section>
                 </div>

@@ -82,15 +82,15 @@
             }
 
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+            $("ul.professional-interest").toggle();    
+            });
+        });
+    </script>
     </head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script>
-          $(document).ready(function(){
-              $("button").click(function(){
-                  $("ul.professional-interests").fadetoggle();
-              });
-          });
-          </script>
     <body>
         <!--https://github.com/jacobfrederick/jacobfrederick.github.io.git -->
         <div id="all-contents">
@@ -124,16 +124,16 @@
                 </div>
             </main>
             <main>
-                <div class="contents">
-                    <header> Professional Interest </header>
-                    <section class = "interest">
-                        <button> Press to see professional Interest </button>
-                        <ul class = "professional-interest">
-                            <li>Baseball</li>
-                            <li>Coding games and websites</li>
-                            <li>creating a better community</li>
-                        </ul>
-                    </section>
+                <div class="content">
+                  <header> Professional Interest</header>
+                  <section class="interest">
+                      <button> Use me to see my professional interest</button>
+                      <ul class="professional-interest">
+                          <li> Professional Baseball </li>
+                          <li> Game and website developer</li>
+                          <li> Advocate for a better community</li>
+                      </ul>
+                  </section>
                 </div>
             </main>
         </div>
